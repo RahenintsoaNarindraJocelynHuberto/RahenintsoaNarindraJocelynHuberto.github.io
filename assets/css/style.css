@@ -11,8 +11,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
-  color: #fff;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   position: relative;
   background: transparent;
 }
@@ -20,8 +20,8 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/image3.png") top right no-repeat;
-  background-size: cover;
+  background: rgb(19, 18, 18) url("../img/sary8.jpg") top right  no-repeat;
+  background-size: contain;
   left: 0;
   right: 0;
   top: 0;
@@ -36,12 +36,12 @@ body::before {
 }
 
 a {
-  color: #ed3c0d;
+  color: #00c95e;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ed3c0d;
+  color: white;
   text-decoration: none;
 }
 
@@ -95,7 +95,7 @@ h6 {
 
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #ed3c0d;
+  border-bottom: 2px solid #00c95e;
   padding-bottom: 6px;
 }
 
@@ -114,8 +114,8 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  background: rgba(7, 7, 7, 0.897);
+  color: rgb(255, 255, 255);
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -124,7 +124,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: #ed3c0d;
+  background: #00c95e;
 }
 
 @media (max-width: 992px) {
@@ -242,10 +242,11 @@ h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #ed3c0d;
+  background-color: #00c95e;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
+  color: #00c95e;
 }
 
 .navbar a:hover:before,
@@ -355,7 +356,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(252, 248, 248, 0.9);
   padding: 30px;
 }
 
@@ -377,7 +378,7 @@ section .container {
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #000000;
   font-family: "Poppins", sans-serif;
 }
 
@@ -386,7 +387,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #ed3c0d;
+  background: #00c95e;
   margin: 4px 10px;
 }
 
@@ -397,7 +398,7 @@ section .container {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 /*--------------------------------------------------------------
@@ -406,12 +407,17 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #ed3c0d;
+  color: #00c95e;
 }
 
 .about-me .content ul {
   list-style: none;
   padding: 0;
+}
+.about-me img{
+  border-radius: 200PX;
+  border: none solid rgb(17, 16, 16);
+  box-shadow: 0px 0 40px 0 rgba(15, 15, 15, 0.342);
 }
 
 .about-me .content ul li {
@@ -427,7 +433,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #ed3c0d;
+  color: #00c95e;
   line-height: 0;
 }
 
@@ -447,7 +453,7 @@ section .container {
   width: 100%;
   position: relative;
   text-align: center;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.281);
 }
 
 .counts .count-box i {
@@ -456,9 +462,9 @@ section .container {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.281);
   padding: 12px;
-  color: #ed3c0d;
+  color: #ffffff;
   border-radius: 50px;
   line-height: 0;
 }
@@ -467,13 +473,14 @@ section .container {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .counts .count-box p {
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
+  color: #fff;
   font-size: 14px;
 }
 
@@ -494,7 +501,7 @@ section .container {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .skills .progress .skill .val {
@@ -503,14 +510,14 @@ section .container {
 }
 
 .skills .progress-bar-wrap {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(54, 50, 48, 0.699);
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #ed3c0d;
+  background-color: #00c95e;
 }
 
 /*--------------------------------------------------------------
@@ -536,7 +543,7 @@ section .container {
   padding: 0;
   line-height: 1;
   font-size: 16px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .interests .icon-box:hover {
@@ -621,7 +628,7 @@ section .container {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ed3c0d;
+  background-color: #00c95e;
 }
 
 /*--------------------------------------------------------------
@@ -632,13 +639,13 @@ section .container {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  border-left: 2px solid rgba(7, 7, 7, 0.651);
   position: relative;
 }
 
@@ -648,13 +655,13 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #ed3c0d;
-  margin-bottom: 10px;
+  color: #00c95e;
+  margin-bottom: 10px;color: ;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(45, 168, 34, 0.26);
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -681,8 +688,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #ed3c0d;
-  border: 2px solid #ed3c0d;
+  background: #00c95e;
+  border: 2px solid #00c95e;
 }
 
 /*--------------------------------------------------------------
@@ -699,7 +706,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #ed3c0d;
+  background: #00c95e;
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   display: flex;
@@ -744,8 +751,8 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #ed3c0d;
-  border-color: #ed3c0d;
+  background: #00c95e;
+  border-color: #00c95e;
 }
 
 .services .icon-box:hover .icon {
@@ -753,11 +760,11 @@ section .container {
 }
 
 .services .icon-box:hover .icon i {
-  color: #ed3c0d;
+  color: #00c95e;
 }
 
 .services .icon-box:hover .icon::before {
-  background: #ed3c0d;
+  background: #00c95e;
 }
 
 .services .icon-box:hover h4 a,
@@ -798,7 +805,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
+  background: #00c95e;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -988,42 +995,42 @@ section .container {
   width: 12px;
   height: 12px;
   opacity: 1;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.349);
 }
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #00c95e;
 }
 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444444;
+  color: #000000;
   padding: 20px;
   width: 100%;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(49, 43, 43, 0.116);
 }
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #ed3c0d;
+  color: #00c95e;
   border-radius: 50%;
   padding: 14px;
   float: left;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.89);
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.658);
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
 
 .contact .info-box p {
   padding: 0;
-  color: #fff;
+  color: rgb(0, 0, 0);
   line-height: 24px;
   font-size: 14px;
   margin: 0 0 0 68px;
@@ -1037,25 +1044,25 @@ section .container {
 .contact .info-box .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: #fff;
+  color: rgb(0, 0, 0);
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;
 }
 
 .contact .info-box .social-links a:hover {
-  color: #ed3c0d;
+  color: #00c95e;
 }
 
 .contact .php-email-form {
   padding: 30px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(49, 43, 43, 0.116);
 }
 
 .contact .php-email-form .error-message {
   display: none;
-  background: rgba(255, 255, 255, 0.08);
-  background: #ed3c0d;
+  background: rgba(49, 43, 43, 0.1168);
+  background: #00c95e;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1067,8 +1074,8 @@ section .container {
 
 .contact .php-email-form .sent-message {
   display: none;
-  background: rgba(255, 255, 255, 0.08);
-  background: #ed3c0d;
+  background: rgba(49, 43, 43, 0.116);
+  background: #00c95e;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1076,7 +1083,7 @@ section .container {
 
 .contact .php-email-form .loading {
   display: none;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(49, 43, 43, 0.116);
   text-align: center;
   padding: 15px;
 }
@@ -1088,8 +1095,8 @@ section .container {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #ed3c0d;
-  border-top-color: #eee;
+  border: 3px solid #00c95e;
+  border-top-color: rgb(17, 16, 16);
   animation: animate-loading 1s linear infinite;
 }
 
@@ -1098,26 +1105,27 @@ section .container {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(49, 43, 43, 0.116);
   border: 0;
   transition: 0.3s;
-  color: #fff;
+  color: rgba(8, 8, 8, 0.911);
 }
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  background-color: rgba(255, 255, 255, 0.11);
+  background-color: rgba(49, 43, 43, 0.116);
 }
 
 .contact .php-email-form input::-moz-placeholder,
 .contact .php-email-form textarea::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(8, 8, 8, 0.911);
+  font-family: Arial, Helvetica, sans-serif;
   opacity: 1;
 }
 
 .contact .php-email-form input::placeholder,
 .contact .php-email-form textarea::placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(8, 8, 8, 0.911);
   opacity: 1;
 }
 
@@ -1130,7 +1138,7 @@ section .container {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ed3c0d;
+  background: #00c95e;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1139,7 +1147,7 @@ section .container {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ed3c0d;
+  background: #00c95e;
 }
 
 @keyframes animate-loading {
@@ -1176,7 +1184,7 @@ section .container {
 }
 
 .credits a {
-  color: #18d26e;
+  color: #00c95e;
   transition: 0.3s;
 }
 
@@ -1185,12 +1193,17 @@ section .container {
 }
 
 #footer {
-  background: #ed3c0d;
-  padding: 24px 0;
+  background: #00c95e;
+  font-weight: lighter;
+  padding: -10;
   font-size: 14px;
-  box-shadow: 0px 0 20px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0 20px 0 rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+footer span{
+  font-weight: bold;
+}
 #footer .copyright {
   text-align: center;
 }
